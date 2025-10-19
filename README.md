@@ -17,6 +17,7 @@ Este projeto é uma API REST simples para **cadastro de clientes** e **geração
 - Apidog Fast Request (teste)
 
 ## Estrutura do Projeto
+$ tree
 cartao-api/
 |
 ├── controller/ #Endpoints (ClienteController)
