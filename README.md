@@ -3,8 +3,8 @@
 Este projeto é uma API REST simples para **cadastro de clientes** e **geração de números de cartão virtual únicos**, desenvolvido com Java e Spring Boot.
 
 ## Funcionalidades
-- POST/cliente - cadastro do novo cliente (nome, email) e geração do número do cartão (16 dígitos)
-- GET/cliente?email - busca do cliente pelo email, retornando todos os cartões associados ao email fornecido
+- POST/casdastrar- cadastro do novo cliente (nome, email) e geração do número do cartão (16 dígitos)
+- GET/buscar - busca do cliente pelo email, retornando todos os cartões associados ao email fornecido
 
 ## Tecnologias Utilizadas
 - Java 17
@@ -21,7 +21,7 @@ Este projeto é uma API REST simples para **cadastro de clientes** e **geração
 cartao-api/
 │
 ├── controller/ #Endpoints (ClienteController)
-├── service/ #Lógica de negócio (ClienteService)
-├── repository/ #Integração com banco de dados (ClienteRepository)
 ├── model/ #Modelo da entidade (Cliente)
+├── repository/ #Integração com banco de dados (ClienteRepository)
+├── service/ #Lógica de negócio (ClienteService)
 └── CartaoApiApplication.java #Classe principal
