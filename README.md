@@ -16,8 +16,9 @@ Este projeto é uma API REST simples para **cadastro de clientes** e **geração
 - Postman (teste)
 - Apidog Fast Request (teste)
 
-##Estrutura do Projeto
-cartao_api/
+## Estrutura do Projeto
+
+cartao-api/
 │
 ├── controller/ #Endpoints (ClienteController)
 ├── service/ #Lógica de negócio (ClienteService)
