@@ -19,9 +19,9 @@ Este projeto é uma API REST simples para **cadastro de clientes** e **geração
 ## Estrutura do Projeto
 
 cartao-api/
-│
-├── controller/ #Endpoints (ClienteController)
-├── model/ #Modelo da entidade (Cliente)
-├── repository/ #Integração com banco de dados (ClienteRepository)
-├── service/ #Lógica de negócio (ClienteService)
-└── CartaoApiApplication.java #Classe principal
+- |
+- ├── controller/ #Endpoints (ClienteController)
+- ├── model/ #Modelo da entidade (Cliente)
+- ├── repository/ #Integração com banco de dados (ClienteRepository)
+- ├── service/ #Lógica de negócio (ClienteService)
+- └── CartaoApiApplication.java #Classe principal
