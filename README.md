@@ -17,6 +17,7 @@ Este projeto é uma API REST simples para **cadastro de clientes** e **geração
 - Apidog Fast Request (teste)
 
 ## Estrutura do Projeto
+'''
 $tree
 .
 cartao-api/
@@ -26,3 +27,4 @@ cartao-api/
 ├── repository/ #Integração com banco de dados (ClienteRepository)
 ├── service/ #Lógica de negócio (ClienteService)
 └── CartaoApiApplication.java #Classe principal
+'''
