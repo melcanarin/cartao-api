@@ -8,8 +8,8 @@ Este projeto é uma API REST simples para **cadastro de clientes** e **geração
 
 ## Tecnologias Utilizadas
 - Java 17
-- Spring Boot
 - Maven
+- Spring Boot
 - Spring Web
 - Spring JPA
 - H2 Database
